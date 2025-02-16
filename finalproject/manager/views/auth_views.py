@@ -3,6 +3,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.db import IntegrityError
+from manager.models import User
 
 LOGIN_URL = "manager/login.html"
 REGISTER_URL = "manager/register.html"
